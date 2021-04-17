@@ -35,6 +35,7 @@
 			
 			<table border="2" width="750">
 			<tr>
+				<!--Mark's Comment: the code looks clean so far. Just one note, since you've specified the width for each cell in this first row, you don't have to do it for any of the following rows. But when we get to CSS, you'll replace these width attributes with a style anyway.-->
 				<td width="50%"><strong>Skill</strong></td>
 				<td width="50%"><strong>Proficiency in It</strong></td>	
 			</tr>
@@ -57,6 +58,7 @@
 			</table>
 			
 			<p>Finally, here's an image:</p>
+			<!--Mark's Comment: lol-->
 			<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2012/03/04215201/03_26_07_KS_01.jpg" width="1000" alt="I kissed Ana Mari Cauce by the cherry blossoms at the University of Washington's Quadrangle (Quad), pink-tinted trees in the springtime with students walking around them." title="UW Cherry Blossoms">
 			<h6>If you view this on a screen reader, then the image will show alt text instead - pretty cool!</h6>
 		<!--end of Joe Lollo's section-->
@@ -64,14 +66,18 @@
 		<!--Dylan's part Start-->
 			<h1>Dylan Dang's part</h1>
 			<p>I am a designer not a coder. I am getting backing to drawing and illustrating, and my preferred art style is anime.</p>
+			<!--Mark's Comment: empty div tag below. If you're trying add a line break, you could use a br tag isntead, but when we do CSS you could also pad the paragraphs.-->
 			<div></div>
+			<!--Mark's Comment: There seems to be a closing /strong tag at the end of addicted but no beginning to that tag. Also, you usually want to nest tags instead of overlapping them so move the closing /em tag to before the closing /p tag.-->
 			<p>I play a lot of gacha games, and <strong>NO</strong> I am not <em>>addicted</strong>.</p></em>
 			<p>My Genshin User ID: 601430399</p>
+			<!--Mark's Comment: Normally, all text should be in a paragraph or div element so put these anchor links in div tags or p tags.-->
 			<a href="https://steamcommunity.com/id/Trollablez/">Link to my steam</a>
 			<a href="https://www.reddit.com/user/DylanDANG">Link to my Reddit</a>
 
 			<table border="2" width="750">
 				<tr>
+				<!--Mark's Comment: since you've specified the width for each cell in this first row, you don't have to do it for any of the following rows. But when we get to CSS, you'll replace these width attributes with a style anyway.-->
 					<td width="50%">Photoshop:</td>
 					<td width="50%">Pretty Good</td>
 				</tr>
@@ -119,6 +125,7 @@
 			<h2>I'm pretty new to coding</h2>
 			<h3><strong>BUT</strong> hoping that I learn quickly...</h3>
 			<div>Next up is my lists!</div>
+			<!--Mark's Comment: Looks like an extra closing /em tag below...-->
 			<span><em>Hopefully</em> they aren't too dull.</span></em>
 			<h4><strong>Best NBA players</strong></h4>
 			<ol>
@@ -140,6 +147,7 @@
 
 			<table border="3" width="750">
 				<tr>
+					<!--Mark's Comment: since you've specified the width for each cell in this first row, you don't have to do it for any of the following rows. But when we get to CSS, you'll replace these width attributes with a style anyway.-->
 					<td width="50%"><strong>Sport</strong></td>
 					<td width="50%"><strong>Ability Level</strong> (out of 10) </td>
 				</tr>
@@ -168,15 +176,18 @@
 			<!--Ethan's part end-->
 			<hr>
 			<!--Noah's part start-->
+			<!--Mark's Comment: put attribute values within quote marks (style="text-align:center")-->
 			<h1 style=text-align:center>Hello my name is Noah and this is my section of the website</h1>
 			<p style=text-align:center>I have a tiny bit of experience with Java but no experience making websites other than occasionally making a site on Wix or similar</p>
 			<p style=text-align:center>Im currently hoping to get into my CS major, but if I don't I have <strong>NO IDEA</strong> what I am gonna do</p>
+			<!--Mark's Comment: empty div tag below. If you want to add a line break, use a br tag instead or wait until you can use CSS to make the paragraph or h2 elements have padding.-->
 			<div></div>
 			<h2 style=text-align:center >My interests</h2>
 			<p style=color:blueviolet> I have a <strong>LOT</strong> of interests although <span style=color:crimson>the <strong>PANDEMIC</strong></span> has killed a lot of the activities I would normally do</p>
 			<h2 style="text-align: center;">Here is a table of my interests and how often I get to practice them during the pandemic</h2>
 			<table style =background-color:cyan style="width: 75%;" border="2" width="1000">
 				<tr>
+					<!--Mark's Comment: since you've specified the width for each cell in this first row, you don't have to do it for any of the following rows. But when we get to CSS, you'll replace these width attributes with a style anyway.-->
 					<td width="50%"><strong>Hobby</strong></td>
 					<td width="50%"> <strong>How often</strong></td>
 				</tr>
@@ -185,6 +196,7 @@
 				<td width="50%"> once or twice a week</td>
 			</tr>
 			<tr>
+				<!--Mark's Comment: it's a good idea to use lowercase for all tags-->
 				<td width="50%"><Strong>Video Games</Strong></td>
 				<td width="50%">3 times a week (mon,wed,sun)</td>
 			</tr>
@@ -226,8 +238,9 @@
 </table>
 
 
-
+<!--Mark's Comment: extra div tag here, too-->
 		<div></div>
+		<!--Mark's Comment: you should never nest paragraph tags within h tags. These types of elements let the web browser know what category of text this is. You're saying, here's a header but no wait it's actually a paragraph. That doesn't make sense.-->
 			<h2 style =text-align:center> <p style=text-color:Purple>Last but not least my favorite sports image ever! </p></h2>
 			<div></div>
 			<img src=https://i.pinimg.com/originals/8f/82/f1/8f82f19b9dde87fafbd3dc4e8199b2a1.gif alt="Bautista walk off home run" title="Walk off bomb!">
@@ -235,4 +248,5 @@
 		}
 			<!--Noah's part end-->
 		</body>	
+		<!--Mark's Comment: your document needs a closing /html element-->
 
