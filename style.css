@@ -1,0 +1,49 @@
+.container {
+    margin-top: 40px;
+}
+
+.banner {
+    margin-bottom: 20px;
+
+}
+
+#name {
+    margin-top: 0px;
+}
+
+#pronoun {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:767px) {
+    #picture {
+        margin: 0 auto;
+        width: 30%;
+    }
+}
+
+@media(min-width:768px) {
+    #picture {
+        float: right;
+        width: 70%;
+    }
+}
+
+.nav a.active {
+    border-bottom: 1px solid black;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Recommendations */
+#recommendations ol {
+    list-style-type: lower-alpha;
+}
+
+#recommendations ol ol {
+    list-style-type: lower-roman;
+}
+
+#recommendations .important-quote {
+    margin-left: 3em;
+}
